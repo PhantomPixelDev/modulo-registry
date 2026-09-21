@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    { "repository": "PhantomPixelDev/modulo-plugin-contact-form", "min_core_version": "1.0.0", "license": "MIT" },
+    { "repository": "PhantomPixelDev/modulo-plugin-hello-world", "min_core_version": "1.0.0", "license": "MIT" },
+    { "repository": "PhantomPixelDev/modulo-plugin-shop", "min_core_version": "1.0.0", "license": "MIT" }
+  ]
+}
