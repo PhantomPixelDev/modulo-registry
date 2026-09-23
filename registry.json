@@ -1,4 +1,53 @@
 {
   "schema": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "slug": "contact-form",
+      "name": "Contact Form",
+      "namespace": "ContactForm",
+      "description": "Simple contact form with shortcode, email notification, and DB storage.",
+      "author": "Modulo CMS",
+      "license": "MIT",
+      "repository": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form",
+      "latest": {
+        "version": "1.0.0",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form/releases/download/v1.0.0/contact-form-1.0.0.zip",
+        "sha256": "92c5c02cfc4519362960ece87384fd63b49148c2b134f83edadb31dc65d1a46e",
+        "min_core_version": "0.1.0",
+        "released_at": "2026-09-23T22:00:48Z"
+      }
+    },
+    {
+      "slug": "hello-world",
+      "name": "Hello World",
+      "namespace": "HelloWorld",
+      "description": "A sample plugin to test the plugin system.",
+      "author": "Modulo CMS",
+      "license": "MIT",
+      "repository": "https://github.com/PhantomPixelDev/modulo-plugin-hello-world",
+      "latest": {
+        "version": "1.0.0",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-hello-world/releases/download/v1.0.0/hello-world-1.0.0.zip",
+        "sha256": "4b8fd051308691b3c0a4be8876becb313dc8ae8cd6d208da0ba5295234b2e0e8",
+        "min_core_version": "0.1.0",
+        "released_at": "2026-09-23T22:00:53Z"
+      }
+    },
+    {
+      "slug": "modulo-shop",
+      "name": "Modulo Shop",
+      "namespace": "ModuloShop",
+      "description": "A feature-rich e-commerce plugin for Modulo CMS.",
+      "author": "Modulo CMS",
+      "license": "MIT",
+      "repository": "https://github.com/PhantomPixelDev/modulo-plugin-shop",
+      "latest": {
+        "version": "1.0.0",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-shop/releases/download/v1.0.0/modulo-shop-1.0.0.zip",
+        "sha256": "6294863b0f01b24c3ea913e2f6e0cacea85d4730d772bed743d820e0bdb83088",
+        "min_core_version": "0.1.0",
+        "released_at": "2026-09-23T22:00:56Z"
+      }
+    }
+  ]
 }
