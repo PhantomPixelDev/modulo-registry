@@ -10,11 +10,11 @@
       "license": "MIT",
       "repository": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form",
       "latest": {
-        "version": "1.0.1",
-        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form/releases/download/v1.0.1/contact-form-1.0.1.zip",
-        "sha256": "9ef8b4052b99ff941c080f920bfbf001fedded772722757ec1817d236cbeba74",
+        "version": "1.1.0",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form/releases/download/v1.1.0/contact-form-1.1.0.zip",
+        "sha256": "758f6f3faaad848f53dee2c75ecb9c0a1a4f260f8aa01191bbbeec47e7227949",
         "min_core_version": "0.1.0",
-        "released_at": "2026-09-26T08:48:17Z"
+        "released_at": "2026-09-26T18:46:00Z"
       }
     },
     {
