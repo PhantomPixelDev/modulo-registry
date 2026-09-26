@@ -10,11 +10,11 @@
       "license": "MIT",
       "repository": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form",
       "latest": {
-        "version": "1.0.0",
-        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form/releases/download/v1.0.0/contact-form-1.0.0.zip",
-        "sha256": "92c5c02cfc4519362960ece87384fd63b49148c2b134f83edadb31dc65d1a46e",
+        "version": "1.0.1",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-contact-form/releases/download/v1.0.1/contact-form-1.0.1.zip",
+        "sha256": "9ef8b4052b99ff941c080f920bfbf001fedded772722757ec1817d236cbeba74",
         "min_core_version": "0.1.0",
-        "released_at": "2026-09-23T22:00:48Z"
+        "released_at": "2026-09-26T08:48:17Z"
       }
     },
     {
@@ -42,11 +42,11 @@
       "license": "MIT",
       "repository": "https://github.com/PhantomPixelDev/modulo-plugin-shop",
       "latest": {
-        "version": "1.0.0",
-        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-shop/releases/download/v1.0.0/modulo-shop-1.0.0.zip",
-        "sha256": "6294863b0f01b24c3ea913e2f6e0cacea85d4730d772bed743d820e0bdb83088",
+        "version": "1.6.0",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-shop/releases/download/v1.6.0/modulo-shop-1.6.0.zip",
+        "sha256": "2602c5e1849f52addc8a6e099e4de22fd068aee5260492de238234f0d6ccf630",
         "min_core_version": "0.1.0",
-        "released_at": "2026-09-23T22:00:56Z"
+        "released_at": "2026-09-26T08:48:48Z"
       }
     }
   ]
