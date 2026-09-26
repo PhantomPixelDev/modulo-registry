@@ -8,6 +8,7 @@ rather than writing a checksum nobody verified.
 
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import urllib.request
@@ -20,6 +21,16 @@ def gh(*args):
 def fetch(url):
     with urllib.request.urlopen(url, timeout=60) as response:
         return response.read()
+
+
+def min_core_version(manifest, source):
+    """The plugin's own requirement wins (requires.core, e.g. ">=0.3.0"); sources.json is the fallback."""
+    wanted = (manifest.get("requires") or {}).get("core") or manifest.get("min_core_version")
+    if isinstance(wanted, str):
+        match = re.search(r"\d+(?:\.\d+){0,2}", wanted)
+        if match:
+            return match.group(0)
+    return source.get("min_core_version")
 
 
 def build_entry(source):
@@ -54,7 +65,7 @@ def build_entry(source):
             "version": version,
             "asset_url": assets[name],
             "sha256": actual,
-            "min_core_version": source.get("min_core_version"),
+            "min_core_version": min_core_version(manifest, source),
             "released_at": release.get("published_at"),
         },
     }
