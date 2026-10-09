@@ -42,11 +42,11 @@
       "license": "MIT",
       "repository": "https://github.com/PhantomPixelDev/modulo-plugin-shop",
       "latest": {
-        "version": "1.9.0",
-        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-shop/releases/download/v1.9.0/modulo-shop-1.9.0.zip",
-        "sha256": "3f1c036033d9b3af707b98cd9430ec42a68e2dcdd52ff801b21fd30752de6e83",
+        "version": "1.9.1",
+        "asset_url": "https://github.com/PhantomPixelDev/modulo-plugin-shop/releases/download/v1.9.1/modulo-shop-1.9.1.zip",
+        "sha256": "1b62bb6dc3744877f915af384ff8a1af0f472fa5f5816436010104d4d4ebcd80",
         "min_core_version": "0.3.0",
-        "released_at": "2026-10-06T18:45:58Z"
+        "released_at": "2026-10-09T12:57:25Z"
       }
     }
   ]
